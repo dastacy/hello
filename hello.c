@@ -2,12 +2,16 @@
 
 int main(void)
 {
-	char name[20];
+	char name[100];
+	int age;
 
 	printf("What's your name? ");
 	scanf("%s", name);
 
-	printf("Hello, %s\n", name);
+	printf("How old are you? ");
+	scanf("%d", &age);
+
+	printf("Hello, %s! You are %d years old\n", name, age);
 
 	return 0;
 }
