@@ -2,7 +2,12 @@
 
 int main(void)
 {
-	printf("Hello, world!\n");
+	char name[20];
+
+	printf("What's your name? ");
+	scanf("%s", name);
+
+	printf("Hello, %s\n", name);
 
 	return 0;
 }
