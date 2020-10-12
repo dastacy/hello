@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char name[100];
+	char name[50];
 	int age;
 
 	printf("What's your name? ");
